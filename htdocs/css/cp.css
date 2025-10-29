@@ -1,0 +1,29 @@
+
+#page-containter {
+    max-width: 1420px;
+    height: auto;
+}
+#content {
+    float: right;
+    padding: 20px;
+    width:800px;
+}
+
+.Name {
+    outline-width: 3px;
+    outline-style: groove;
+}
+
+.Type {
+    outline-width: 3px;
+    outline-style: dotted;
+}
+
+.p1 {
+    outline-width: 3px;
+    outline-style: dotted;
+}
+
+.Creature-Img {
+    float: left;
+}
