@@ -2,3 +2,12 @@
     max-width: 64px;
     height: auto;
 }
+
+#creature-table {
+    max-width: 1250px;
+    height: auto;
+    margin: auto;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-style: groove;
+}
