@@ -1,3 +1,7 @@
+.button {
+    max-width: 64px;
+    height: auto;
+}
 
 #page-containter {
     max-width: 1420px;
