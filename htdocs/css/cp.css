@@ -1,6 +1,7 @@
 .button {
     max-width: 64px;
     height: auto;
+    cursor: pointer;
 }
 
 #page-containter {
@@ -33,4 +34,9 @@
 
 .Creature-Img {
     float: left;
+}
+
+#banner {
+    max-width: 1500px;
+    height: auto;
 }

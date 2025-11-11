@@ -1,6 +1,7 @@
 .button {
     max-width: 64px;
     height: auto;
+    cursor: pointer;
 }
 
 #creature-table {
@@ -10,4 +11,13 @@
     background-color: antiquewhite;
     border-radius: 5px;
     border-style: groove;
+}
+
+#banner {
+    max-width: 1500px;
+    height: auto;
+}
+
+.creature {
+    cursor: pointer;
 }
