@@ -21,3 +21,6 @@
 .creature {
     cursor: pointer;
 }
+.cave {
+    background-image: url('images/Cave_Background.png');
+}
