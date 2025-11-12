@@ -1,5 +1,5 @@
-// This is a copy of a JS file that the prof showed us, however I can't seem to remember why it was important. IDK what it does.
-
+// This is a copy of a JS file that the professor showed us, however I can't seem to remember why it was important. IDK what it does.
+// Edit: Ignore this file, it doesn't do anything. But don't delete, just in case it's useful later.
 
 document.addEventListener("DOMContentLoaded", () => {
     const includeElements = document.querySelectorAll("[data-include]");
