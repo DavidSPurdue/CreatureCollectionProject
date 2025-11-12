@@ -3,9 +3,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>Goblin</title>
+        <title>Survey</title>
         <link href="css/cp.css" rel="stylesheet" type="text/css"/>
-
         <style>
             body {
                 background-image: url('images/Backgrounds/Background.png');
@@ -15,8 +14,8 @@
     </head>
     <body>
         <div id="page-containter">
-            <img id="banner" src="images/Banner.png"/>
-            
+            <!--the banner will be at the top of the page, fulling filling the page horazontally-->
+                <img id="banner"src="images/banner.png"/> <!-- add banner image --> 
             
             <!--these 5 buttons will be just underneath the banner in a row-->
             <div class="buttons"> 
@@ -26,17 +25,22 @@
                 <img src="images/Buttons/Form_Button.png" class="button" onclick="location.href='forms.html'">
             </div>
 
-
-            <!--this section will include a basic summary of the information that the website has to offer, as well as links to some suggested pages / a first place to start when exploring the website,-->
-            <div id="creature-content"></div>
-
-            <!--JS, applies JSON array to innerHTML-->
-            <script src="cp.js"></script>
-            
-            <div id="description">
-                <img class="Creature-Img" src="images/Creatures/Goblin.png"/>
+            <!--this section will ask the user a quick survey question-->
+            <div id="content">
+                <form action="/my-form-data-page" method="post">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" />
+                    </p>
+                    <p>
+                        <label for="survey">What are your thoughts on this catalog?</label><br/>
+                        <input type="text" id="survey_response" />
+                    </p>
+                </form>
             </div>
-
         </div>
+
+
+        
     </body>
 </html>
