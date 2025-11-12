@@ -4,6 +4,18 @@
     cursor: pointer;
 }
 
+#h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#p {
+    text-align: center;
+}
+
+
 #creature-table {
     max-width: 1250px;
     height: auto;
@@ -20,7 +32,4 @@
 
 .creature {
     cursor: pointer;
-}
-.cave {
-    background-image: url('images/Cave_Background.png');
 }
