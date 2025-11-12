@@ -18,11 +18,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     <h1>${creature.name}</h1>
                     <h2>${creature.type}</h2>
                     <p>${creature.description}</p>
+                    <p>${creature.description_2}</p>
+                    <a href='cp.html?id=${creature.related_id}'>${creature.related}</a>
                 </div>
 
                 <div id="description">
-                    <img class="creature-img" src=${creature.image}/>
+                    <img class="creature-img" src="${creature.image}"/>
                 </div>
+
+
+
             `;
             } else {
                 content.innerHTML = '<p>Creature not found.</p>';

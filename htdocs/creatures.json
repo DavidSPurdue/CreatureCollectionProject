@@ -16,7 +16,8 @@
       "type": "Humanoid Creature",
       "description": "Goblins are funny little guys. They love money and stealing things from other people.  hello world",
       "description_2": "Goblins should not be trusted by any degree by anyone.",
-      "related": "Hobgoblins"
+      "related": "Hobgoblins",
+      "related_id": "5"
       },
       {
       "id": 10,
