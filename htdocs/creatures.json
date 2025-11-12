@@ -2,6 +2,15 @@
    "creature": [
       {
       "id": 1,
+      "name": "Direwolf",
+      "image": "images/Creatures/Direwolf.png",
+      "type": "Beast Creature",
+      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves.",
+      "description_2": "They are especially know for the enhanced strength and durability compared to their normal wolf counter parts.",
+      "related": "Null"
+      },
+      {
+      "id": 4,
       "name": "Goblin",
       "image": "images/Creatures/Goblin.png",
       "type": "Humanoid Creature",
@@ -10,7 +19,7 @@
       "related": "Hobgoblins"
       },
       {
-      "id": 2,
+      "id": 12,
       "name": "Slime Cube",
       "image": "images/Creatures/Slime.png",
       "type": "Blob Creature",
