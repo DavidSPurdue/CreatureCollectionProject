@@ -14,9 +14,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (creature) {
             content.innerHTML = `
-                <h1>${creature.name}</h1>
-                <h2>${creature.type}</h2>
-                <p>${creature.description}</p>
+                <div id="content">
+                    <h1>${creature.name}</h1>
+                    <h2>${creature.type}</h2>
+                    <p>${creature.description}</p>
+                </div>
+
+                <div id="description">
+                    <img class="creature-img" src=${creature.image}/>
+                </div>
             `;
             } else {
                 content.innerHTML = '<p>Creature not found.</p>';

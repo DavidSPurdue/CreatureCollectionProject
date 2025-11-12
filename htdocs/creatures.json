@@ -3,7 +3,7 @@
       {
       "id": 1,
       "name": "Goblin",
-      "image": "images/Goblin.png",
+      "image": "images/Creatures/Goblin.png",
       "type": "Humanoid Creature",
       "description": "Goblins are funny little guys. They love money and stealing things from other people.  hello world",
       "description_2": "Goblins should not be trusted by any degree by anyone.",
@@ -12,7 +12,7 @@
       {
       "id": 2,
       "name": "Slime Cube",
-      "image": "images/Slime.png",
+      "image": "images/Creatures/Slime.png",
       "type": "Blob Creature",
       "description": "They may look like delicious jelly, but don't eat them. Otherwise you may lose your entire mouth due to their acidic touch.",
       "description_2": "These creatures are unable to be reasoned with as they lack a consciousness. They only live for consuming what they find around. This does make them good waste disposals however.",
