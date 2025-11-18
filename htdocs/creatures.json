@@ -15,8 +15,17 @@
       "name": "Direwolf",
       "image": "images/Creatures/Direwolf.png",
       "type": "Beast Creature",
-      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves. Notably, unlike normal wolves, dire wolves can be found isolatedfrom their packs. In addition. dire wolves are significantly more aggressive than normal wolves. Once a dire wolf sees you, it's highly likely that it will attack. ",
-      "description_2": "They are especially know for the enhanced strength and durability compared to their normal wolf counter parts. Dire wolves are also incredibly tacticians who will utilize their numbers to overwhelm prey. There have been certain records which indicate that families of hill giants have domesticated dire wolves as guard dogs. It should also be noted that attempting this as a normal humanoid is incredibly dangerous and will most like end in an untimely demise.",
+      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves. Notably, unlike normal wolves, dire wolves can be found isolatedfrom their packs. In addition. dire wolves are significantly more aggressive than normal wolves. Once a dire wolf sees you, it's highly likely that it will attack.",
+      "description_2": "They are especially know for the enhanced strength and durability compared to their normal wolf counter parts. Dire wolves are also incredibly tacticians who will utilize their numbers to overwhelm prey. There have been certain records which indicate that families of hill giants have domesticated dire wolves as guard dogs. It should also be noted that attempting this as a normal humanoid is incredibly dangerous and will most like end in an untimely demise. /n Do NOT attempt to pet.",
+      "related": "Null"
+      },
+      {
+      "id": 3,
+      "name": "Dragon",
+      "image": "images/Creatures/Dragon.png",
+      "type": "Beast Creature",
+      "description": "It is highly unlike that you will encounter a dragon. Dragons, despite their evident fame, are incredibly exotic creatures. While there are multiple notable accounts of humanoids befriending dragons or at the very least able to come to an agreement that didn't end in the death of the humanoid. These accounts however, are outweighed significantly by the amount of bodies found either directly trampled by dragons or in towns completely destroyed by a dragon. Dragons are incredibly intelligent creatures, are known to use deception and manipulation to get what they want.",
+      "description_2": "Dragons typically grow to around 120ft long with a wingspan of 135ft. Their scales are generally incredibly tough, and, depending on the type of the dragon, can be resistant a variety of elements. Dragons are very well known for their breath attacks, able to devastate entire villages with just one breath. They are also able to utlize their claws and teeth, though normally they can get by with just stepping on whichever adventurer was unfortuante enough to cross their path.",
       "related": "Null"
       },
       {
@@ -34,7 +43,7 @@
       "name": "Hobgoblin",
       "image": "images/Creatures/Hobgoblin.png",
       "type": "Humanoid Creature",
-      "description": "Hobgoblins are larger than their goblin cousins and more intelligent than their bugbear cousins. They are known for their military tactics and organization. It is notable that many hobgoblins hold a code of honor and discipline, leading to them being natural leaders within large groups of goblionoids.",
+      "description": "Hobgoblins are larger than their goblin cousins and more intelligent than their bugbear cousins. Hobgoblins typically grow up to normal human heights with reddish skin. They are known for their military tactics and organization. It is notable that many hobgoblins hold a code of honor and discipline, leading to them being natural leaders within large groups of goblionoids.",
       "description_2": "Communications with hobgoblins is certainly possible, but many researchers find that it typically does not last long before devolving into much more aggressive and non-verbal means. It is, however, incredibly notable that certain hobgoblins have been able to integrate themselves within human societies. According to certain accounts, these hobgoblins still occasionally struggle with their goblinoid nature, as most are hot tempered at best and outright violent at worst.",
       "related": "Goblins, Bugbears",
       "related_id": "4, 1"
