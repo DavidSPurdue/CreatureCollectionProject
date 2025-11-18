@@ -1,0 +1,46 @@
+{
+   "environment": [
+      {
+      "id": 1,
+      "name": "Cave",
+      "image": "images/Backgrounds/Cave_Background.png",
+      "description": "",
+      "description_2": ""
+      },
+      {
+      "id": 2,
+      "name": "Desert",
+      "image": "images/Backgrounds/Desert_Background.png",
+      "description": "",
+      "description_2": ""
+      },
+      {
+      "id": 3,
+      "name": "Dungeon",
+      "image": "images/Backgrounds/Dungeon_Background.png",
+      "description": "",
+      "description_2": ""
+      },
+      {
+      "id": 4,
+      "name": "Forest",
+      "image": "images/Backgrounds/Forest_Background.png",
+      "description": "",
+      "description_2": ""
+      },
+      {
+      "id": 5,
+      "name": "Underwater",
+      "image": "images/Backgrounds/Underwater_Background.png",
+      "description": "",
+      "description_2": ""
+      },
+      {
+      "id": 6,
+      "name": "Volcano",
+      "image": "images/Backgrounds/Volcano_Background.png",
+      "description": "",
+      "description_2": ""
+      }
+   ]
+}

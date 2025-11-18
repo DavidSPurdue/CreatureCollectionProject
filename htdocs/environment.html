@@ -4,6 +4,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>Environments</title>
+        <!--Unless we have a need to make an environment.css, this page will use cp.css-->
         <link href="css/cp.css" rel="stylesheet" type="text/css"/>
 
         <style>
@@ -16,7 +17,7 @@
     <body>
         <div id="page-containter">
             
-            <img id="banner" src="images/banner.png"/> <!-- add banner image --> 
+            <img id="banner" src="images/banner.png"/>
             
             <!--these 5 buttons will be just underneath the banner in a row-->
             <div class="buttons"> 
@@ -34,11 +35,17 @@
                 <p class="p1">Different environments naturally host a variety of creatures, some creatures, such as goblins, prefer dark caves, while others, like fairies, are often found in lush forests.</p>
             
             </div>
-            <div id="description">
+            
                 
 
+            <!--this section will include a basic summary of the information that the website has to offer, as well as links to some suggested pages / a first place to start when exploring the website,-->
+            <div id="environment-content"></div>
 
-            </div>
+            <!--JS, applies JSON array to innerHTML-->
+            <script src="environment.js"></script>
+
+
+       
         </div>
 
 
