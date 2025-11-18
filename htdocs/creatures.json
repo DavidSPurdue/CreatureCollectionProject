@@ -15,8 +15,8 @@
       "name": "Direwolf",
       "image": "images/Creatures/Direwolf.png",
       "type": "Beast Creature",
-      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves.",
-      "description_2": "They are especially know for the enhanced strength and durability compared to their normal wolf counter parts.",
+      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves. Notably, unlike normal wolves, dire wolves can be found isolatedfrom their packs. In addition. dire wolves are significantly more aggressive than normal wolves. Once a dire wolf sees you, it's highly likely that it will attack. ",
+      "description_2": "They are especially know for the enhanced strength and durability compared to their normal wolf counter parts. Dire wolves are also incredibly tacticians who will utilize their numbers to overwhelm prey. There have been certain records which indicate that families of hill giants have domesticated dire wolves as guard dogs. It should also be noted that attempting this as a normal humanoid is incredibly dangerous and will most like end in an untimely demise.",
       "related": "Null"
       },
       {
