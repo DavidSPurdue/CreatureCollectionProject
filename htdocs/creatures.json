@@ -47,7 +47,7 @@
       "related": "Hobgoblins, Bugbears",
       "related_id": "6, 1"
       },
-      {
+      { 
       "id": 6,
       "name": "Hobgoblin",
       "image": "images/Creatures/Hobgoblin.png",
@@ -69,7 +69,7 @@
       },
       {
       "id": 10,
-      "name": "Slime Cube",
+      "name": "Slime",
       "image": "images/Creatures/Slime.png",
       "type": "Blob Creature",
       "description": "They may look like delicious jelly, but don't eat them. Otherwise you may lose your entire mouth due to their acidic touch.",
