@@ -15,7 +15,7 @@
       "name": "Direwolf",
       "image": "images/Creatures/Direwolf.png",
       "type": "Beast Creature",
-      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves. Notably, unlike normal wolves, dire wolves can be found isolatedfrom their packs. In addition. dire wolves are significantly more aggressive than normal wolves. Once a dire wolf sees you, it's highly likely that it will attack.",
+      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves. Notably, unlike normal wolves, dire wolves can be found isolated from their packs. In addition. dire wolves are significantly more aggressive than normal wolves. Once a dire wolf sees you, it's highly likely that it will attack.",
       "description_2": "They are especially know for the enhanced strength and durability compared to their normal wolf counter parts. Dire wolves are also incredibly tacticians who will utilize their numbers to overwhelm prey. There have been certain records which indicate that families of hill giants have domesticated dire wolves as guard dogs. It should also be noted that attempting this as a normal humanoid is incredibly dangerous and will most like end in an untimely demise. /n Do NOT attempt to pet.",
       "related": "Null"
       },
@@ -33,7 +33,7 @@
       "name": "Goblin",
       "image": "images/Creatures/Goblin.png",
       "type": "Humanoid Creature",
-      "description": "Goblins are funny little guys. They love money and stealing things from other people.  hello world",
+      "description": "Goblins are funny little guys. They love money and stealing things from other people.",
       "description_2": "Goblins should not be trusted by any degree by anyone.",
       "related": "Hobgoblins, Bugbears",
       "related_id": "5, 1"
@@ -47,15 +47,6 @@
       "description_2": "Communications with hobgoblins is certainly possible, but many researchers find that it typically does not last long before devolving into much more aggressive and non-verbal means. It is, however, incredibly notable that certain hobgoblins have been able to integrate themselves within human societies. According to certain accounts, these hobgoblins still occasionally struggle with their goblinoid nature, as most are hot tempered at best and outright violent at worst.",
       "related": "Goblins, Bugbears",
       "related_id": "4, 1"
-      },
-      {
-      "id": 9,
-      "name": "Owlbear",
-      "image": "images/Creatures/Owlbear.png",
-      "type": "Beast Creature",
-      "description": "Owlbears are quite aptly named. They are large creatures that have the body of a bear with the head of an owl. Owlbears' fur can range anywhere from yellowish brown to a brownish black. They frequently utilized their sharp beak and claws to attack prey. Owlbears are, without a doubt, the apex predator of their habitats. The average adult male owlbear stands at 8 feet tall, weighing around 1300-1500 pouds. They are without a doubt aggressive and foul-tempered, but that does not mean their intelligence is to be underestimated. Owlbears have been known to set up ambushes for prey, as well as create simple traps. It is also notable that owlbears have an incredible sense of smell, being able to track prey from miles away. ",
-      "description_2": "One account was found in the woods by a hunter next to a destroyed carriage and two dead horses. The journal detailed how the previous owner, an apparent caravan merchant was traveling through the woods when they accidentally awoke an owlbear lying in its nest. The journal went to detail how for the next several days while traveling, they would always hear a terrible screeching noise at night. In the mornings, they would wake to find one less member. The merchant described roughly this same routine which went on for another four days. The last entry within the journal was simply a passage from the hymns to Helm repeating multiple times.",
-      "related": "Null"
       },
       {
       "id": 10,
