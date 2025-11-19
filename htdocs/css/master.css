@@ -16,14 +16,16 @@
 }
 
 
-#creature-table {
+.creature-table {
     max-width: 1250px;
     height: auto;
     margin: auto;
     background-color: antiquewhite;
     border-radius: 5px;
     border-style: groove;
+
 }
+
 
 #banner {
     max-width: 1500px;
@@ -32,4 +34,17 @@
 
 .creature {
     cursor: pointer;
+}
+
+#header {
+    max-width: 1250px;
+    height: auto;
+    margin: auto;
+    background-color:lavender;
+    border-radius: 15px;
+    border-style: groove;
+}
+
+.classification {
+    margin: auto;
 }
