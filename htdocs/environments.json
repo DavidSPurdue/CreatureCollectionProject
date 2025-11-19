@@ -3,21 +3,21 @@
       {
       "id": 1,
       "name": "Cave",
-      "image": "images/Backgrounds/Cave_Background.png",
+      "image": "images/Backgrounds/Cave_Background_.png",
       "description": "",
       "description_2": ""
       },
       {
       "id": 2,
       "name": "Desert",
-      "image": "images/Backgrounds/Desert_Background.png",
+      "image": "images/Backgrounds/Desert_Background_.png",
       "description": "",
       "description_2": ""
       },
       {
       "id": 3,
       "name": "Dungeon",
-      "image": "images/Backgrounds/Dungeon_Background.png",
+      "image": "images/Backgrounds/Dungeon_Background_.png",
       "description": "",
       "description_2": ""
       },
