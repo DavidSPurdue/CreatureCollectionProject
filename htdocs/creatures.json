@@ -2,22 +2,70 @@
    "creature": [
       {
       "id": 1,
+      "name": "Bugbear",
+      "image": "images/Creatures/Bugbear.png",
+      "type": "Humanoid Creature",
+      "description": "Bugbears are large and hairy goblinoids known for their strength. Bugbears are very notably hairy compared to their other goblinoid brothers. They are typically the biggest members within any goblinoid gathering, and serve as guards. it should be noted that while bugbears do have natural claws, they are particularly sharp, leading to them mostly using weapons acquired from their victims. Of course, due to how only few adventurers are reckless enough to go so deep into a goblinoid lair that they would encounter a bugbear, the weapons that each bugbear wield are typically very well-worn and battered.",
+      "description_2": "It is certainly interesting that when researching bugbears, most records describe either the brutal manner in which they manage to defeat their foes or ways to combat groups of bugbears(the latter typically prefaces itself with paragraphs of preamble discussing why this is a terrible idea). There are very few accounts of the culture of bugbears, with what few records there are noting their apparent brutality and idiocy.",
+      "related": "Hobgoblins, Goblins",
+      "related_id": "6, 5"
+      },
+      {
+      "id": 2,
       "name": "Direwolf",
       "image": "images/Creatures/Direwolf.png",
       "type": "Beast Creature",
-      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves.",
-      "description_2": "They are especially know for the enhanced strength and durability compared to their normal wolf counter parts.",
+      "description": "Direwolves commonly hunt in packs. The Direwolf leads the pack as a alpha while the rest of the pack consists of normal wolves. Notably, unlike normal wolves, dire wolves can be found isolated from their packs. In addition. dire wolves are significantly more aggressive than normal wolves. Once a dire wolf sees you, it's highly likely that it will attack.",
+      "description_2": "They are especially know for the enhanced strength and durability compared to their normal wolf counter parts. Dire wolves are also incredibly tacticians who will utilize their numbers to overwhelm prey. There have been certain records which indicate that families of hill giants have domesticated dire wolves as guard dogs. It should also be noted that attempting this as a normal humanoid is incredibly dangerous and will most like end in an untimely demise. /n Do NOT attempt to pet.",
+      "related": "Null"
+      },
+      {
+      "id": 3,
+      "name": "Dragon",
+      "image": "images/Creatures/Dragon.png",
+      "type": "Beast Creature",
+      "description": "It is highly unlike that you will encounter a dragon. Dragons, despite their evident fame, are incredibly exotic creatures. While there are multiple notable accounts of humanoids befriending dragons or at the very least able to come to an agreement that didn't end in the death of the humanoid. These accounts however, are outweighed significantly by the amount of bodies found either directly trampled by dragons or in towns completely destroyed by a dragon. Dragons are incredibly intelligent creatures, are known to use deception and manipulation to get what they want.",
+      "description_2": "Dragons typically grow to around 120ft long with a wingspan of 135ft. Their scales are generally incredibly tough, and, depending on the type of the dragon, can be resistant a variety of elements. Dragons are very well known for their breath attacks, able to devastate entire villages with just one breath. They are also able to utlize their claws and teeth, though normally they can get by with just stepping on whichever adventurer was unfortuante enough to cross their path.",
       "related": "Null"
       },
       {
       "id": 4,
+      "name": "Elf",
+      "image": "images/Creatures/Elf.png",
+      "type": "Humanoid Creature",
+      "description": "Elves are a magical race which often lives in forests. They are known for their haughtiness and mostly hermit-like behavior. Most elves live our their hundreds of years of life in isolation from human society. Most elves are highly proficient in archery and magic, making them highly formidable warriors. When encountering an elf, it is exceedingly important to not slight their culture, as elves hold a high amount of pride in their tradition and race.",
+      "description_2": "Elves have a typically slender build with pointed ears and sharp facial features. Their lifespan is significantly longer than that of humans, often living for several centuries. Elven society is often structured around close-knit communities that value art, music, and nature. They are known to have a deep connection with the natural world, often acting as protectors of forests and wildlife.",
+      "related": "Null"
+      },
+      {
+      "id": 5,
       "name": "Goblin",
       "image": "images/Creatures/Goblin.png",
       "type": "Humanoid Creature",
-      "description": "Goblins are funny little guys. They love money and stealing things from other people.  hello world",
+      "description": "Goblins are funny little guys. They love money and stealing things from other people.",
       "description_2": "Goblins should not be trusted by any degree by anyone.",
-      "related": "Hobgoblins",
-      "related_id": "5"
+      "related": "Hobgoblins, Bugbears",
+      "related_id": "6, 1"
+      },
+      {
+      "id": 6,
+      "name": "Hobgoblin",
+      "image": "images/Creatures/Hobgoblin.png",
+      "type": "Humanoid Creature",
+      "description": "Hobgoblins are larger than their goblin cousins and more intelligent than their bugbear cousins. Hobgoblins typically grow up to normal human heights with reddish skin. They are known for their military tactics and organization. It is notable that many hobgoblins hold a code of honor and discipline, leading to them being natural leaders within large groups of goblionoids.",
+      "description_2": "Communications with hobgoblins is certainly possible, but many researchers find that it typically does not last long before devolving into much more aggressive and non-verbal means. It is, however, incredibly notable that certain hobgoblins have been able to integrate themselves within human societies. According to certain accounts, these hobgoblins still occasionally struggle with their goblinoid nature, as most are hot tempered at best and outright violent at worst.",
+      "related": "Goblins, Bugbears",
+      "related_id": "5, 1"
+      },
+      {
+      "id": 6,
+      "name": "Mermaid",
+      "image": "images/Creatures/Mermaid.png",
+      "type": "Humanoid Creature",
+      "description": "Mermaids are aquatic creatures with the upper body of a human and the lower body of a fish. They are generally peaceful creatures that don't pose a threat to humans unless provoked. Mermaids are known for their enchanting singing voices and their tears. Many records indicate that mermaid tears have certain healing properties. As a result, there are certain parts of the world where mermaids are hunted in order to mass produce their tears via unsavory means.",
+      "description_2": "Mermaid tribes have a complex culture that revolves around the sea. While mermaids are generally peaceful, it is not rare that one of their kind will strike out against others who pose as a threat either to their habitat or their kind. Mermaids are powerful magic users, and should be given their due respect.",
+      "related": "Goblins, Bugbears",
+      "related_id": "4, 1"
       },
       {
       "id": 10,
@@ -26,6 +74,15 @@
       "type": "Blob Creature",
       "description": "They may look like delicious jelly, but don't eat them. Otherwise you may lose your entire mouth due to their acidic touch.",
       "description_2": "These creatures are unable to be reasoned with as they lack a consciousness. They only live for consuming what they find around. This does make them good waste disposals however.",
+      "related": "Null"
+      },
+      {
+      "id": 20,
+      "name": "Zombie",
+      "image": "images/Creatures/Zombie.png",
+      "type": "Undead Creature",
+      "description": "Zombies are reanimated corpses with varying levels of mobility and sentience. Certain schools of necromancy are able to resurrect corpses with their previous minds completely intact, while other methods of reanimation result in mindless, slow-moving creatures that is commanded by the one who raised them from the dead. As such, zombies can pose varying levels of threat.",
+      "description_2": "In combat against zombies, they are typically weak to fire and light(the holy variant is especially effective). In terms of physical durability, most zombies can take quite a beating before being rendered \"dead\" again. They will attack without concern for their own safety, making them dangerous in large numbers.",
       "related": "Null"
       }
    ]
