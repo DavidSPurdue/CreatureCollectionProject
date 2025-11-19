@@ -45,6 +45,18 @@
     border-style: groove;
 }
 
-.classification {
-    margin: auto;
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #C57C57;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D34653;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #CB0717;
 }
