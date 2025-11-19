@@ -49,12 +49,31 @@
       "related_id": "4, 1"
       },
       {
+      "id": 6,
+      "name": "Mermaid",
+      "image": "images/Creatures/Mermaid.png",
+      "type": "Humanoid Creature",
+      "description": "Mermaids are aquatic creatures with the upper body of a human and the lower body of a fish. They are generally peaceful creatures that don't pose a threat to humans unless provoked. Mermaids are known for their enchanting singing voices and their tears. Many records indicate that mermaid tears have certain healing properties. As a result, there are certain parts of the world where mermaids are hunted in order to mass produce their tears via unsavory means.",
+      "description_2": "Mermaid tribes have a complex culture that revolves around the sea. While mermaids are generally peaceful, it is not rare that one of their kind will strike out against others who pose as a threat either to their habitat or their kind. Mermaids are powerful magic users, and should be given their due respect.",
+      "related": "Goblins, Bugbears",
+      "related_id": "4, 1"
+      },
+      {
       "id": 10,
       "name": "Slime Cube",
       "image": "images/Creatures/Slime.png",
       "type": "Blob Creature",
       "description": "They may look like delicious jelly, but don't eat them. Otherwise you may lose your entire mouth due to their acidic touch.",
       "description_2": "These creatures are unable to be reasoned with as they lack a consciousness. They only live for consuming what they find around. This does make them good waste disposals however.",
+      "related": "Null"
+      },
+      {
+      "id": 20,
+      "name": "Zombie",
+      "image": "images/Creatures/Zombie.png",
+      "type": "Undead Creature",
+      "description": "Zombies are reanimated corpses with varying levels of mobility and sentience. Certain schools of necromancy are able to resurrect corpses with their previous minds completely intact, while other methods of reanimation result in mindless, slow-moving creatures that is commanded by the one who raised them from the dead. As such, zombies can pose varying levels of threat.",
+      "description_2": "In combat against zombies, they are typically weak to fire and light(the holy variant is especially effective). In terms of physical durability, most zombies can take quite a beating before being rendered \"dead\" again. They will attack without concern for their own safety, making them dangerous in large numbers.",
       "related": "Null"
       }
    ]
