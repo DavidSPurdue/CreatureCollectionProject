@@ -10,7 +10,7 @@
       {
       "id": 2,
       "name": "Desert",
-      "image": "images/Backgrounds/Desert_Background_.png",
+      "image": "images/Backgrounds/Desert_Environment_.png",
       "description": "",
       "description_2": ""
       },
@@ -29,35 +29,35 @@
       "description_2": ""
       },
       {
-      "id": 5,
+      "id": 8,
       "name": "Underwater",
       "image": "images/Backgrounds/Underwater_Background.png",
       "description": "",
       "description_2": ""
       },
       {
-      "id": 6,
+      "id": 9,
       "name": "Volcano",
       "image": "images/Backgrounds/Volcano_Background.png",
       "description": "",
       "description_2": ""
       },
       {
-      "id": 7,
+      "id": 6,
       "name": "Mountains",
       "image": "images/Backgrounds/Snow_Background.png",
       "description": "",
       "description_2": ""
       },
       {
-      "id": 8,
+      "id": 7,
       "name": "Plains",
       "image": "",
       "description": "",
       "description_2": ""
       },
       {
-      "id": 9,
+      "id": 5,
       "name": "Graveyard",
       "image": "",
       "description": "",

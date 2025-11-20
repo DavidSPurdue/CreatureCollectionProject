@@ -3,7 +3,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-        <title>Creature</title>
+        <title>Environments</title>
+        <!--Unless we have a need to make an environment.css, this page will use cp.css-->
         <link href="css/cp.css" rel="stylesheet" type="text/css"/>
 
         <style>
@@ -15,8 +16,8 @@
     </head>
     <body>
         <div id="page-containter">
-            <img id="banner" src="images/Banner.png"/>
             
+            <img id="banner" src="images/banner.png"/>
             
             <!--these 5 buttons will be just underneath the banner in a row-->
             <div class="buttons"> 
@@ -26,13 +27,17 @@
                 <img src="images/Buttons/Form_Button.png" class="button" onclick="location.href='forms.html'">
             </div>
 
-
             <!--this section will include a basic summary of the information that the website has to offer, as well as links to some suggested pages / a first place to start when exploring the website,-->
-            <div id="creature-content"></div>
+            <div id="environment-content"></div>
 
             <!--JS, applies JSON array to innerHTML-->
-            <script src="cp.js"></script>
+            <script src="environment.js"></script>
 
+
+       
         </div>
+
+
+        
     </body>
 </html>

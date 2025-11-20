@@ -5,7 +5,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
         <title>Environments</title>
         <!--Unless we have a need to make an environment.css, this page will use cp.css-->
-        <link href="css/cp.css" rel="stylesheet" type="text/css"/>
+        <link href="css/master.css" rel="stylesheet" type="text/css"/>
 
         <style>
             body {
@@ -27,28 +27,49 @@
                 <img src="images/Buttons/Form_Button.png" class="button" onclick="location.href='forms.html'">
             </div>
 
-            <!--this section will include a basic summary of the information that the website has to offer, as well as links to some suggested pages / a first place to start when exploring the website,-->
             <div id="content">
-                <h1 class="Name">Environments</h1>
-                <h2 class="Type">There are many different environments in which creatures can be found!</h2>
+                <h1 id="h1">Environment Page</h1>
+                <p id="p">This is a description of the Environment Page.</p>
+                    <table class="creature-table">
+                        <tr> <!--For the backgrounds of each creature image in the table, they can be depictions of their environments-->
+                            <td>
+                                <img src="images/Backgrounds/Cave_Background_.png" class="creature" onclick="location.href='ep.html?id=1'">
+                            </td>
+                            <td>
+                                <img src="images/Backgrounds/Desert_Environment_.png" class="creature" onclick="location.href='ep.html?id=2'">
+                            </td>
+                            <td>
+                                <img src="images/Backgrounds/Dungeon_Background_.png" class="creature" onclick="location.href='ep.html?id=3'">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/Backgrounds/Forest_Background.png" class="creature" onclick="location.href='ep.html?id=4'">
+                            </td>
+                            <td>
+                                <img src="images/Backgrounds/Graveyard_Background.png" class="creature" onclick="location.href='ep.html?id=5'">
+                            </td>
+                            <td>
+                                <img src="images/Backgrounds/Snow_Background.png" class="creature" onclick="location.href='ep.html?id=6'">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="images/Backgrounds/Plains_Background.png" class="creature" onclick="location.href='ep.html?id=7'">
+                            </td>
+                            <td>
+                                <img src="images/Backgrounds/Underwater_Background.png" class="creature" onclick="location.href='ep.html?id=8'">
+                            </td>
+                            <td>
+                                <img src="images/Backgrounds/Volcano_Background.png" class="creature" onclick="location.href='ep.html?id=9'">
+                            </td>
+                        </tr>
 
-                <p class="p1">Different environments naturally host a variety of creatures, some creatures, such as goblins, prefer dark caves, while others, like fairies, are often found in lush forests.</p>
-            
+
+                    </table>
+
             </div>
-            
-                
-
-            <!--this section will include a basic summary of the information that the website has to offer, as well as links to some suggested pages / a first place to start when exploring the website,-->
-            <div id="environment-content"></div>
-
-            <!--JS, applies JSON array to innerHTML-->
-            <script src="environment.js"></script>
-
-
-       
         </div>
-
-
-        
+       
     </body>
 </html>
