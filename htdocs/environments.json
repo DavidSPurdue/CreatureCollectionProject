@@ -41,6 +41,27 @@
       "image": "images/Backgrounds/Volcano_Background.png",
       "description": "",
       "description_2": ""
+      },
+      {
+      "id": 7,
+      "name": "Mountains",
+      "image": "images/Backgrounds/Snow_Background.png",
+      "description": "",
+      "description_2": ""
+      },
+      {
+      "id": 8,
+      "name": "Plains",
+      "image": "",
+      "description": "",
+      "description_2": ""
+      },
+      {
+      "id": 9,
+      "name": "Graveyard",
+      "image": "",
+      "description": "",
+      "description_2": ""
       }
    ]
 }

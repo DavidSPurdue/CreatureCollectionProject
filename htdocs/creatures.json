@@ -13,7 +13,7 @@
       "id": 4,
       "name": "Dragon",
       "image": "images/Creatures/Dragon.png",
-      "type": "Beast Creature",
+      "type": "Drake Creature",
       "description": "It is highly unlike that you will encounter a dragon. Dragons, despite their evident fame, are incredibly exotic creatures. While there are multiple notable accounts of humanoids befriending dragons or at the very least able to come to an agreement that didn't end in the death of the humanoid. These accounts however, are outweighed significantly by the amount of bodies found either directly trampled by dragons or in towns completely destroyed by a dragon. Dragons are incredibly intelligent creatures, are known to use deception and manipulation to get what they want.",
       "description_2": "Dragons typically grow to around 120ft long with a wingspan of 135ft. Their scales are generally incredibly tough, and, depending on the type of the dragon, can be resistant a variety of elements. Dragons are very well known for their breath attacks, able to devastate entire villages with just one breath. They are also able to utlize their claws and teeth, though normally they can get by with just stepping on whichever adventurer was unfortuante enough to cross their path.",
       "related": "Null"
@@ -70,7 +70,7 @@
       "id": 22,
       "name": "Mermaid",
       "image": "images/Creatures/Mermaid.png",
-      "type": "Humanoid Creature",
+      "type": "Beast Humanoid Creature",
       "description": "Mermaids are aquatic creatures with the upper body of a human and the lower body of a fish. They are generally peaceful creatures that don't pose a threat to humans unless provoked. Mermaids are known for their enchanting singing voices and their tears. Many records indicate that mermaid tears have certain healing properties. As a result, there are certain parts of the world where mermaids are hunted in order to mass produce their tears via unsavory means.",
       "description_2": "Mermaid tribes have a complex culture that revolves around the sea. While mermaids are generally peaceful, it is not rare that one of their kind will strike out against others who pose as a threat either to their habitat or their kind. Mermaids are powerful magic users, and should be given their due respect.",
       "related": "Null"
@@ -97,7 +97,7 @@
       "id": 37,
       "name": "Zombie",
       "image": "images/Creatures/Zombie.png",
-      "type": "Undead Creature",
+      "type": "Humanoid Creature",
       "description": "Zombies are reanimated corpses with varying levels of mobility and sentience. Certain schools of necromancy are able to resurrect corpses with their previous minds completely intact, while other methods of reanimation result in mindless, slow-moving creatures that is commanded by the one who raised them from the dead. As such, zombies can pose varying levels of threat.",
       "description_2": "In combat against zombies, they are typically weak to fire and light(the holy variant is especially effective). In terms of physical durability, most zombies can take quite a beating before being rendered \"dead\" again. They will attack without concern for their own safety, making them dangerous in large numbers.",
       "related": "Null"
