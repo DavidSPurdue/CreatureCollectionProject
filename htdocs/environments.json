@@ -52,14 +52,14 @@
       {
       "id": 7,
       "name": "Plains",
-      "image": "",
+      "image": "images/Backgrounds/Plains_Background_.png",
       "description": "",
       "description_2": ""
       },
       {
       "id": 5,
       "name": "Graveyard",
-      "image": "",
+      "image": "images/Backgrounds/Graveyard_Background.png",
       "description": "",
       "description_2": ""
       }
