@@ -27,7 +27,7 @@
             <div id="content">
                 <h1>Tell us your thoughts...</h1>
                 <form action="/my-form-data-page" method="post">
-                    <h2>Favorite Biome(s)</h2>
+                    <h2>Favorite Enviornment(s)</h2>
                     <p>
                         <label>Volcano</label>
                         <input type="checkbox" id="toggleBoxVolcano" onclick="toggleDropdownVolcano()"><br>
@@ -41,6 +41,13 @@
                         <input type="checkbox" id="toggleBoxUnderwater" onclick="toggleDropdownUnderwater()"><br>
                         <label>Desert</label>
                         <input type="checkbox" id="toggleBoxDesert" onclick="toggleDropdownDesert()"><br>
+                        <label>Graveyard</label>
+                        <input type="checkbox" id="toggleBoxGraveyard" onclick="toggleDropdownGraveyard()"><br>
+                        <label>Plains</label>
+                        <input type="checkbox" id="toggleBoxPlains" onclick="toggleDropdownPlains()"><br>
+                        <label>Snow</label>
+                        <input type="checkbox" id="toggleBoxSnow" onclick="toggleDropdownSnow()"><br>
+                        
 
                         <!--dropdown-->
                         <div id="dropdownContainerVolcano" style="display:none; margin-top:10px;">
@@ -97,6 +104,33 @@
                                 <option>Option C</option>
                             </select>
                         </div>
+                        <div id="dropdownContainerGraveyard" style="display:none; margin-top:10px;">
+                            <label>Select favorite creature from the Graveyard:</label>
+                            <select>
+                                <option>Select one...</option>
+                                <option>Option z</option>
+                                <option>Option B</option>
+                                <option>Option C</option>
+                            </select>
+                        </div>
+                        <div id="dropdownContainerPlains" style="display:none; margin-top:10px;">
+                            <label>Select favorite creature from the Plains:</label>
+                            <select>
+                                <option>Select one...</option>
+                                <option>Option A</option>
+                                <option>Option B</option>
+                                <option>Option C</option>
+                            </select>
+                        </div>
+                        <div id="dropdownContainerSnow" style="display:none; margin-top:10px;">
+                            <label>Select favorite creature from the Snow:</label>
+                            <select>
+                                <option>Select one...</option>
+                                <option>Option z</option>
+                                <option>Option B</option>
+                                <option>Option C</option>
+                            </select>
+                        </div>
                     </form>
 
                     <script>
@@ -143,6 +177,30 @@
                         function toggleDropdownDesert() {
                             const checkbox = document.getElementById("toggleBoxDesert");
                             const dropdown = document.getElementById("dropdownContainerDesert");
+              
+                            dropdown.style.display = checkbox.checked ? "block" : "none";
+                        }
+                    </script>
+                    <script>
+                        function toggleDropdownGraveyard() {
+                            const checkbox = document.getElementById("toggleBoxGraveyard");
+                            const dropdown = document.getElementById("dropdownContainerGraveyard");
+              
+                            dropdown.style.display = checkbox.checked ? "block" : "none";
+                        }
+                    </script>
+                    <script>
+                        function toggleDropdownPlains() {
+                            const checkbox = document.getElementById("toggleBoxPlains");
+                            const dropdown = document.getElementById("dropdownContainerPlains");
+              
+                            dropdown.style.display = checkbox.checked ? "block" : "none";
+                        }
+                    </script>
+                    <script>
+                        function toggleDropdownSnow() {
+                            const checkbox = document.getElementById("toggleBoxSnow");
+                            const dropdown = document.getElementById("dropdownContainerSnow");
               
                             dropdown.style.display = checkbox.checked ? "block" : "none";
                         }
