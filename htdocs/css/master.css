@@ -60,3 +60,16 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #CB0717;
 }
+
+#h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.cred {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+    text-align: center;
+}
