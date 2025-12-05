@@ -1,6 +1,15 @@
 {
    "creature": [
       {
+      "id": 2,
+      "name": "Air_Elemental",
+      "image": "images/Creatures/Air_Elemental.png",
+      "type": "Blob Creature",
+      "description": "Air elementals are formed by wind and living air currents. They are mostly created by extremely powerful wizards but can occasionally be found out in terrains with high winds. Of course, being made of air only makes them impervious to most physical attacks. They can be dispersed by strong enough winds or contained in certain magical containers.",
+      "description_2": "Air elementals are much like their other elemental counterparts. They are not necessarily malicious creatures, but due to their innate danger they should be treated with caution by any adventurers who happen to come across their path.",
+      "related": "Null"
+      },
+      {
       "id": 3,
       "name": "Direwolf",
       "image": "images/Creatures/Direwolf.png",
@@ -28,6 +37,15 @@
       "related": "Null"
       },
       {
+      "id": 7,
+      "name": "Fairy",
+      "image": "images/Creatures/Fairy.png",
+      "type": "Humanoid Creature",
+      "description": "Fairies are small magical beings with wings. They are known for their mischievous nature and their ability to use magic. Fairies are often found in forests and meadows, where they live in small communities. They are known to be very protective of their homes and will often play tricks on humans who venture too close.",
+      "description_2": "Fairies have delicate, translucent wings and a petite stature. They are often depicted with a glowing aura and are capable of flight. Their lifespan varies widely depending on the type of fairy, with some living only a few years and others living for centuries. Fairies are deeply connected to nature and are often considered guardians of the natural world.",
+      "related": "Null"
+      },
+      {
       "id": 8,
       "name": "Fire Elemental",
       "image": "images/Creatures/Fire_Elemental.png",
@@ -38,6 +56,16 @@
       "related_id": "33"
       },
       {
+      "id": 8,
+      "name": "Fire Giant",
+      "image": "images/Creatures/Fire_Giant.png",
+      "type": "Humanoid Creature",
+      "description": "Fire giants are large raging monstrosities that are terrifying both in size and temperament. They are known for their incredible strength and their ability to manipulate fire. In addition, fire giants are also high durable physically, able to easily survive the attacks of multiple adventurers at once. Fire giants are also known for their blacksmithing skills.",
+      "description_2": "Fire giants typically stand around 18 feet tall and have a muscular build. Their skin often has a reddish or orange hue, resembling molten rock. They are known to inhabit volcanic regions and are often found in the company of fire elementals. Fire giants have a strong sense of honor and are known to engage in combat with those they deem worthy opponents.",
+      "related": "Ice Giant",
+      "related_id": "19"
+      },
+      {
       "id": 14,
       "name": "Goblin",
       "image": "images/Creatures/Goblin.png",
@@ -45,10 +73,10 @@
       "description": "Goblins are funny little guys. They love money and stealing things from other people.",
       "description_2": "Goblins should not be trusted by any degree by anyone.",
       "related": "Hobgoblins",
-      "related_id": "19"
+      "related_id": "18"
       },
       { 
-      "id": 19,
+      "id": 18,
       "name": "Hobgoblin",
       "image": "images/Creatures/Hobgoblin.png",
       "type": "Humanoid Creature",
@@ -56,6 +84,16 @@
       "description_2": "Communications with hobgoblins is certainly possible, but many researchers find that it typically does not last long before devolving into much more aggressive and non-verbal means. It is, however, incredibly notable that certain hobgoblins have been able to integrate themselves within human societies. According to certain accounts, these hobgoblins still occasionally struggle with their goblinoid nature, as most are hot tempered at best and outright violent at worst.",
       "related": "Goblins",
       "related_id": "14"
+      },
+      {
+      "id": 19,
+      "name": "Ice Giant",
+      "image": "images/Creatures/Ice_Giant.png",
+      "type": "Humanoid Creature",
+      "description": "Ice giants are large raging monstrosities that are terrifying both in size and temperament. They are known for their incredible strength and their ability to manipulate ice. In addition, ice giants are also highly durable physically, able to easily survive the attacks of multiple adventurers at once. Ice giants are also known for their blacksmithing skills.",
+      "description_2": "Ice giants typically stand around 18 feet tall and have a muscular build. Their skin often has a bluish or white hue, resembling frozen rock. They are known to inhabit icy regions and are often found in the company of water elementals. Ice giants have a strong sense of honor and are known to engage in combat with those they deem worthy opponents.",
+      "related": "Fire Giant",
+      "related_id": "8"
       },
       {
          "id": 20,
