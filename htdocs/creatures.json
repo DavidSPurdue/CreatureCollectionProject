@@ -66,6 +66,15 @@
       "related_id": "19"
       },
       {
+      "id": 9,
+      "name": "Gargoyle",
+      "image": "images/Creatures/Gargoyle.png",
+      "type": "Construct Creature",
+      "description": "Gargoyles are stone creatures that are often used as guardians for important buildings. They are known for their ability to come to life and attack intruders who threaten the building they are guarding. Gargoyles are typically made of stone and have a humanoid appearance with wings and sharp claws.",
+      "description_2": "Due to their stone composition, gargoyles are highly resistant to physical attacks. They are often animated through magical means and can be quite intelligent, capable of understanding commands and strategizing in combat. Gargoyles are usually found perched on rooftops or ledges, blending in with their surroundings until they spring to life.",
+      "related": "Null"
+      },
+      {
       "id": 14,
       "name": "Goblin",
       "image": "images/Creatures/Goblin.png",
