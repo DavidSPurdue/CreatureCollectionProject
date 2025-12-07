@@ -75,6 +75,15 @@
       "related": "Null"
       },
       {
+      "id": 10,
+      "name": "Ghost",
+      "image": "images/Creatures/Ghost.png",
+      "type": "Humanoid Creature",
+      "description": "Ghosts are ethereal beings that are often the spirits of the dead. They are known for their ability to pass through solid objects and their haunting presence. Ghosts can vary in appearance, often resembling the person they were in life, but sometimes appearing as shadowy or translucent figures.",
+      "description_2": "Ghosts are typically bound to a specific location or object, often due to unfinished business or strong emotions. They can be both benevolent and malevolent, depending on their nature and circumstances. Ghosts are usually invisible to the living, but can sometimes be seen or sensed, especially by those with magical abilities.",
+      "related": "Null"
+      },
+      {
       "id": 14,
       "name": "Goblin",
       "image": "images/Creatures/Goblin.png",
