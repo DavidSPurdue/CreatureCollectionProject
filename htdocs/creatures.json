@@ -116,7 +116,7 @@
       {
          "id": 20,
          "name": "Kraken",
-         "image": "images/Creatures/Kraken.png",
+         "image": "images/Creatures/Kracken.png",
          "type": "Beast Creature",
          "description": "The king of the ocean, the destroyer of ships, the Kraken. This sea monster resembles a common squid except for being a bit spiky and being at least ten times as big as an average squid. While it may appear to only have one eye, it does have another on the other side of it.",
          "description_2": "It lives in the deepest, dark part of the ocean. It only comes up from its home whenever it senses a ships floating above the ocean. It will procede to then rip the ship to streads and consume any poor soul that happens to be on it. No one truly knows why it loves to attack ships, but perhaps it simply sees them as the only thing big enough to impose upon it and thus must challenge it to retain its crown over the sea. Or, maybe it is just a big kid playing with toys way too agressively.",
@@ -134,7 +134,7 @@
       {
       "id": 24,
       "name": "Phoenix",
-      "image": "images/Creatures/Pheonix.png",
+      "image": "images/Creatures/Phoenix.png",
       "type": "Beast Creature",
       "description": "The majestic bird of fire. Despite being on a constant state of being on fire, the phoenix does not feel any pain from it. However, if it were to perish, its body would burn and the ashes would form together to form a egg. After a while, the egg would hatch and the phoenix would be reborn.",
       "description_2": "Pheonixes tend to be solitary creatures, rarely seeing another of their kind. It is said that the fire of a phoenix burns on forever and can not be estinguished by any means. However, any burns left by this creature are said to heal up faster than an average burn.",
