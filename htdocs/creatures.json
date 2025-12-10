@@ -132,6 +132,15 @@
       "related": "Null"
       },
       {
+      "id": 24,
+      "name": "Phoenix",
+      "image": "images/Creatures/Pheonix.png",
+      "type": "Beast Creature",
+      "description": "The majestic bird of fire. Despite being on a constant state of being on fire, the phoenix does not feel any pain from it. However, if it were to perish, its body would burn and the ashes would form together to form a egg. After a while, the egg would hatch and the phoenix would be reborn.",
+      "description_2": "Pheonixes tend to be solitary creatures, rarely seeing another of their kind. It is said that the fire of a phoenix burns on forever and can not be estinguished by any means. However, any burns left by this creature are said to heal up faster than an average burn.",
+      "related": "Null"
+      },
+      {
       "id": 29,
       "name": "Slime",
       "image": "images/Creatures/Slime.png",
