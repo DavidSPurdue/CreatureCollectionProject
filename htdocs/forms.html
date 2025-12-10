@@ -25,113 +25,121 @@
 
             <!--this section will ask the user a quick survey question-->
             <div id="content">
-                <h1>Tell us your thoughts...</h1>
-                <form action="/my-form-data-page" method="post">
-                    <h2>Favorite Enviornment(s)</h2>
-                    <p>
-                        <label>Volcano</label>
-                        <input type="checkbox" id="toggleBoxVolcano" onclick="toggleDropdownVolcano()"><br>
-                        <label>Forest</label>
-                        <input type="checkbox" id="toggleBoxForest" onclick="toggleDropdownForest()"><br>
-                        <label>Cave</label>
-                        <input type="checkbox" id="toggleBoxCave" onclick="toggleDropdownCave()"><br>
-                        <label>Dungeon</label>
-                        <input type="checkbox" id="toggleBoxDungeon" onclick="toggleDropdownDungeon()"><br>
-                        <label>Underwater</label>
-                        <input type="checkbox" id="toggleBoxUnderwater" onclick="toggleDropdownUnderwater()"><br>
-                        <label>Desert</label>
-                        <input type="checkbox" id="toggleBoxDesert" onclick="toggleDropdownDesert()"><br>
-                        <label>Graveyard</label>
-                        <input type="checkbox" id="toggleBoxGraveyard" onclick="toggleDropdownGraveyard()"><br>
-                        <label>Plains</label>
-                        <input type="checkbox" id="toggleBoxPlains" onclick="toggleDropdownPlains()"><br>
-                        <label>Snow</label>
-                        <input type="checkbox" id="toggleBoxSnow" onclick="toggleDropdownSnow()"><br>
-                        
+                <h1 id="h1">Tell us your thoughts...</h1>
+                <form action="handler.php" method="post">
+                    <h2>Please pick your favorite enviornment(s)</h2>
 
-                        <!--dropdown-->
-                        <div id="dropdownContainerVolcano" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Volcano:</label>
-                            <select>
+                        <label style="font-weight: bold; margin-bottom: 5px;">Volcano</label>
+                        <input type="checkbox" id="toggleBoxVolcano" name="volcano" onclick="toggleDropdownVolcano()">
+                            <div id="dropdownContainerVolcano" style="display:none; margin-top:5px; margin-left: 5px;">
+                            <label>Please select your favorite creature from the Volcano:</label>
+                            <select name="volcano_creature">
                                 <option>Select one...</option>
-                                <option>Option A</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
+                                <option>Phoenix</option>
+                                <option>Fire_Elemental</option>
+                                <option>Dragon</option>
+                                <option>Hobgoblin</option>
+                                <option>Fire Giant</option>
                             </select>
-                        </div>
-                        <div id="dropdownContainerForest" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Forest:</label>
-                            <select>
+                            </div><br>
+
+                        <label style="font-weight: bold; margin-bottom: 5px;">Forest</label>
+                        <input type="checkbox" id="toggleBoxForest" name="forest" onclick="toggleDropdownForest()">
+                            <div id="dropdownContainerForest" style="display:none; margin-top:5px; margin-left: 5px;">
+                            <label>Please select your favorite creature from the Forest:</label>
+                            <select name="forest_creature">
                                 <option>Select one...</option>
-                                <option>Option z</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
+                                <option>Direwolf</option>
+                                <option>Unicorn</option>
+                                <option>Elf</option>
+                                <option>Fairy</option>
+                                <option>Gnome</option>
+                                <option>Witch</option>
+                                <option>Plant Biter</option>
+                                <option>Plant Elemental</option>
                             </select>
-                        </div>
-                        <div id="dropdownContainerCave" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Cave:</label>
-                            <select>
+                            </div><br>
+
+                        <label style="font-weight: bold; margin-bottom: 5px;">Cave</label>
+                        <input type="checkbox" id="toggleBoxCave" name="cave" onclick="toggleDropdownCave()">
+                            <div id="dropdownContainerCave" style="display:none; margin-top:5px; margin-left: 5px;">
+                            <label>Please select your favorite creature from the Cave:</label>
+                            <select name="cave_creature">
                                 <option>Select one...</option>
-                                <option>Option A</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
+                                <option>Goblin</option>
                             </select>
-                        </div>
-                        <div id="dropdownContainerDungeon" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Dungeon:</label>
-                            <select>
+                            </div><br>
+
+                        <label style="font-weight: bold; margin-bottom: 5px;">Dungeon</label>
+                        <input type="checkbox" id="toggleBoxDungeon" name="dungeon" onclick="toggleDropdownDungeon()">
+                            <div id="dropdownContainerDungeon" style="display:none; margin-top:5px; margin-left: 5px;">
+                            <label>Please select your favorite creature from the Dungeon:</label>
+                            <select name="dungeon_creature">
                                 <option>Select one...</option>
-                                <option>Option z</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
+                                <option>Ghost</option>
+                                <option>Slime</option>
+                                <option>Gargoyle</option>
+                                <option>Golem</option>
+                                <option>Zombie</option>
+                                <option>Skeleton</option>
+                                <option>Vampire</option>
                             </select>
-                        </div>
-                        <div id="dropdownContainerUnderwater" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Underwater:</label>
-                            <select>
+                            </div><br>
+
+                        <label style="font-weight: bold; margin-bottom: 5px;">Underwater</label>
+                        <input type="checkbox" id="toggleBoxUnderwater" name="underwater" onclick="toggleDropdownUnderwater()">
+                            <div id="dropdownContainerUnderwater" style="display:none; margin-top:5px; margin-left: 5px;">
+                                <label>Please select your favorite creature from the Underwater:</label>
+                                <select name="underwater_creature">
+                                    <option>Select one...</option>
+                                    <option>Mermaid</option>
+                                    <option>Kracken</option>
+                                    <option>Water Elemental</option>
+                                    <option>Leviathan</option>
+                                </select>
+                            </div><br>
+
+                        <label style="font-weight: bold; margin-bottom: 5px;">Desert</label>
+                        <input type="checkbox" id="toggleBoxDesert" name="desert" onclick="toggleDropdownDesert()">
+                            <div id="dropdownContainerDesert" style="display:none; margin-top:5px; margin-left: 5px;">
+                                <label>Please select your favorite creature from the Desert:</label>
+                                <select name="desert_creature">
+                                    <option>Select one...</option>
+                                    <option>Mummy</option>
+                                </select>
+                            </div><br>
+
+                        <label style="font-weight: bold; margin-bottom: 5px;">Graveyard</label>
+                        <input type="checkbox" id="toggleBoxGraveyard" name="graveyard" onclick="toggleDropdownGraveyard()">
+                            <div id="dropdownContainerGraveyard" style="display:none; margin-top:5px; margin-left: 5px;">
+                            <label>Please select your favorite creature from the Graveyard:</label>
+                            <select name="graveyard_creature">
+                                <option>None at this time...</option>
+                            </select>
+                            </div><br>
+
+                        <label style="font-weight: bold; margin-bottom: 5px;">Plains</label>
+                        <input type="checkbox" id="toggleBoxPlains" name="plains" onclick="toggleDropdownPlains()">
+                            <div id="dropdownContainerPlains" style="display:none; margin-top:5px; margin-left: 5px;">
+                                <label>Please select your favorite creature from the Plains:</label>
+                                <select name="plains_creature">
+                                    <option>Select one...</option>
+                                    <option>Giant</option>
+                                </select>
+                            </div><br>
+
+                        <label style="font-weight: bold; margin-bottom: 5px;">Snow</label>
+                        <input type="checkbox" id="toggleBoxSnow" name="snow" onclick="toggleDropdownSnow()">
+                            <div id="dropdownContainerSnow" style="display:none; margin-top:5px; margin-left: 5px;">
+                            <label>Please select your favorite creature from the Snow:</label>
+                            <select name="snow_creature">
                                 <option>Select one...</option>
-                                <option>Option A</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
+                                <option>Yeti</option>
+                                <option>Air Elemental</option>
+                                <option>Ice Giant</option>
                             </select>
-                        </div>
-                        <div id="dropdownContainerDesert" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Desert:</label>
-                            <select>
-                                <option>Select one...</option>
-                                <option>Option z</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
-                            </select>
-                        </div>
-                        <div id="dropdownContainerGraveyard" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Graveyard:</label>
-                            <select>
-                                <option>Select one...</option>
-                                <option>Option z</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
-                            </select>
-                        </div>
-                        <div id="dropdownContainerPlains" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Plains:</label>
-                            <select>
-                                <option>Select one...</option>
-                                <option>Option A</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
-                            </select>
-                        </div>
-                        <div id="dropdownContainerSnow" style="display:none; margin-top:10px;">
-                            <label>Select favorite creature from the Snow:</label>
-                            <select>
-                                <option>Select one...</option>
-                                <option>Option z</option>
-                                <option>Option B</option>
-                                <option>Option C</option>
-                            </select>
-                        </div>
-                    </form>
+                            </div><br>
+
 
                     <script>
                         function toggleDropdownVolcano() {
@@ -207,17 +215,18 @@
                     </script>
                     </p>
                     <p>
-                        <label for="survey">What are your thoughts on this catalog?</label><br/>
-                        <input type="text" style="width:600px; height:200px;" id="survey_response" />
+                        <label for="survey1">What are your overall thoughts on this catalog?</label><br/>
+                        <textarea name="thoughts" id="survey1" style="width:600px; height:200px; resize:none;"></textarea>
                     </p>
                     <p>
-                        <label for="survey">Which biomes would you like to see in the future?</label><br/>
-                        <input type="text" style="width:600px; height:200px;" id="survey_response" />
+                        <label for="survey2">Which biomes would you like to see in the future?</label><br/>
+                        <textarea name="future_biomes" id="survey2" style="width:600px; height:200px; resize:none;"></textarea>
                     </p>
                     <p>
-                        <label for="survey">Which creatures would you like to see added in the future?</label><br/>
-                        <input type="text" style="width:600px; height:200px;" id="survey_response" />
+                        <label for="survey3">Which creatures would you like to see added in the future?</label><br/>
+                        <textarea name="future_creatures" id="survey3" style="width:600px; height:200px; resize:none;"></textarea>
                     </p>
+                    <input type="submit" value="submit">
                 </form>
             </div>
         </div>

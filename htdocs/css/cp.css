@@ -40,3 +40,26 @@
     max-width: 1500px;
     height: auto;
 }
+
+#h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #C57C57;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D34653;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #CB0717;
+}
