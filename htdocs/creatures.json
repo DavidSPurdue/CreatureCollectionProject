@@ -139,7 +139,7 @@
       "description": "Ice giants are large raging monstrosities that are terrifying both in size and temperament. They are known for their incredible strength and their ability to manipulate ice. In addition, ice giants are also highly durable physically, able to easily survive the attacks of multiple adventurers at once. Ice giants are also known for their blacksmithing skills.",
       "description_2": "Ice giants typically stand around 18 feet tall and have a muscular build. Their skin often has a bluish or white hue, resembling frozen rock. They are known to inhabit icy regions and are often found in the company of water elementals. Ice giants have a strong sense of honor and are known to engage in combat with those they deem worthy opponents.",
       "related": "Fire Giant",
-      "related_id": "8"
+      "related_id": "9"
       },
       {
          "id": 20,
@@ -248,7 +248,8 @@
       "type": "Blob Creature",
       "description": "Water elementals are formed by water and living water currents. They are mostly created by extremely powerful wizards but can occasionally be found out in terrains with high water levels. Of course, being made of water only makes them impervious to most physical attacks. They can be dispersed by strong enough currents or contained in certain magical containers.",
       "description_2": "Water elementals are much like their other elemental counterparts. They are not necessarily malicious creatures, but due to their innate danger they should be treated with caution by any adventurers who happen to come across their path.",
-      "related": "Null"
+      "related": "Fire Elemental",
+      "related_id": "8"
       },
       {
       "id": 34,
