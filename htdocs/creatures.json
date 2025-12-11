@@ -118,7 +118,7 @@
       "type": "Construct Creature",
       "description": "Golems are magical constructs created to serve and protect. They are typically made from materials like stone, clay, or metal and brought to life through powerful enchantments.",
       "description_2": "Golems are known for their incredible strength and durability. They follow the commands of their creators without question and are often used as guardians or laborers. Despite their lack of free will, some golems have been known to develop a rudimentary form of consciousness over time.",
-      "related": "Hobgoblins",
+      "related": "Null",
       "related_id": "18"
       },
       { 
@@ -169,7 +169,7 @@
       "related": "Null"
       },
       {
-      "id": 22,
+      "id": 23,
       "name": "Mummy",
       "image": "images/Creatures/Mummy.png",
       "type": "Humanoid Creature",
@@ -208,7 +208,7 @@
       "id": 27,
       "name": "Skeleton",
       "image": "images/Creatures/Skeleton.png",
-      "type": "Undead Creature",
+      "type": "Humanoid Creature",
       "description": "Skeletons are reanimated bones of the dead, often brought back to life through dark magic. They are commonly found in crypts, graveyards, and other places associated with death.",
       "description_2": "These creatures are typically mindless and serve as guardians or minions for necromancers. Despite their lack of flesh, skeletons can be quite resilient and difficult to destroy.",
       "related": "Null"
@@ -254,7 +254,7 @@
       "name": "Witch",
       "image": "images/Creatures/Witch.png",
       "type": "Humanoid Creature",
-      "description": "Witches are practitioners of magic, often depicted as women with knowledge of spells, potions, and rituals. They can be benevolent or malevolent, depending on the lore.",
+      "description": "Witches are practitioners of magic, often depicted as women with knowledge of spells, potions, and rituals. They can be benevolent or malevolent, depending on the witch.",
       "description_2": "Witches are known for their ability to cast spells, brew potions, and sometimes fly on broomsticks. They often have familiars, such as cats or owls, and are associated with various magical traditions.",
       "related": "Null"
       },
@@ -262,9 +262,9 @@
       "id": 35,
       "name": "Yeti",
       "image": "images/Creatures/Yeti.png",
-      "type": "Humanoid Creature",
-      "description": "Yetis are large, ape-like creatures said to inhabit the Himalayan mountains. They are often described as covered in white fur and are known for their elusive nature.",
-      "description_2": "Legends portray yetis as mysterious and sometimes dangerous beings. They are adapted to cold environments and are a popular subject in folklore and cryptozoology.",
+      "type": "Beast Humanoid Creature",
+      "description": "Yetis are large, ape-like creatures said to inhabit the mountains. They are often described as covered in white fur and are known for their elusive nature.",
+      "description_2": "Legends portray yetis as mysterious and sometimes dangerous beings. They are adapted to cold environments and will ambush unknowing prey by blending in with the snow.",
       "related": "Null"
       },
       {
