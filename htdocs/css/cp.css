@@ -41,7 +41,7 @@
 }
 
 #banner {
-    max-width: 1500px;
+    max-width: 100vw;
     height: auto;
 }
 
