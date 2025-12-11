@@ -211,7 +211,8 @@
       "type": "Humanoid Creature",
       "description": "Skeletons are reanimated bones of the dead, often brought back to life through dark magic. They are commonly found in crypts, graveyards, and other places associated with death.",
       "description_2": "These creatures are typically mindless and serve as guardians or minions for necromancers. Despite their lack of flesh, skeletons can be quite resilient and difficult to destroy.",
-      "related": "Null"
+      "related": "Zombie",
+      "related_id": "37"
       },
       {
       "id": 29,
@@ -274,7 +275,8 @@
       "type": "Humanoid Creature",
       "description": "Zombies are reanimated corpses with varying levels of mobility and sentience. Certain schools of necromancy are able to resurrect corpses with their previous minds completely intact, while other methods of reanimation result in mindless, slow-moving creatures that is commanded by the one who raised them from the dead. As such, zombies can pose varying levels of threat.",
       "description_2": "In combat against zombies, they are typically weak to fire and light(the holy variant is especially effective). In terms of physical durability, most zombies can take quite a beating before being rendered \"dead\" again. They will attack without concern for their own safety, making them dangerous in large numbers.",
-      "related": "Null"
+      "related": "Skeleton",
+      "related_id":"27"
       }
    ]
 }

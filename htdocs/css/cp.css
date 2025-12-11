@@ -4,6 +4,10 @@
     cursor: pointer;
 }
 
+* {
+    font-family: "Indie Flower", sans-serif;
+}
+
 #page-containter {
     max-width: 1420px;
     height: auto;
@@ -42,7 +46,6 @@
 }
 
 #h1 {
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 32px;
     text-decoration: underline;
     text-align: center;
