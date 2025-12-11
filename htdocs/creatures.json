@@ -2,7 +2,7 @@
    "creature": [
       {
       "id": 2,
-      "name": "Air_Elemental",
+      "name": "Air Elemental",
       "image": "images/Creatures/Air_Elemental.png",
       "type": "Blob Creature",
       "description": "Air elementals are formed by wind and living air currents. They are mostly created by extremely powerful wizards but can occasionally be found out in terrains with high winds. Of course, being made of air only makes them impervious to most physical attacks. They can be dispersed by strong enough winds or contained in certain magical containers.",
@@ -84,12 +84,40 @@
       "related": "Null"
       },
       {
+      "id": 12,
+      "name": "Giant",
+      "image": "images/Creatures/Giant.png",
+      "type": "Humanoid Creature",
+      "description": "Giants are large monsters that live in groups. They are known for their incredible strength and durability. Giants are often found in the wild, but can also be found in abandoned human settlements. They are typically hostile towards humans and other creatures.",
+      "description_2": "Giant society is often structured around a hierarchy, with a leader who makes decisions for the group. They are known to be highly intelligent and strategic, often using their size and strength to their advantage in combat. It should be noted that not all giants are hostile towards humans, as some have been known to fight in armies.",
+      "related": "Null"
+      },
+      {
+      "id": 13,
+      "name": "Gnome",
+      "image": "images/Creatures/Gnome.png",
+      "type": "Humanoid Creature",
+      "description": "Gnomes are small, intelligent creatures known for their affinity with nature and magic. They often live in forested areas or underground communities. Gnomes are skilled craftsmen and inventors, creating intricate devices and magical items.",
+      "description_2": "Gnome society is typically peaceful and community-oriented. They value knowledge, creativity, and harmony with the natural world. Gnomes are generally friendly towards other races and are known for their curiosity and sense of humor.",
+      "related": "Null"
+      },
+      {
       "id": 14,
       "name": "Goblin",
       "image": "images/Creatures/Goblin.png",
       "type": "Humanoid Creature",
       "description": "Goblins are funny little guys. They love money and stealing things from other people.",
       "description_2": "Goblins should not be trusted by any degree by anyone.",
+      "related": "Hobgoblins",
+      "related_id": "18"
+      },
+      {
+      "id": 15,
+      "name": "Golem",
+      "image": "images/Creatures/Golem.png",
+      "type": "Construct Creature",
+      "description": "Golems are magical constructs created to serve and protect. They are typically made from materials like stone, clay, or metal and brought to life through powerful enchantments.",
+      "description_2": "Golems are known for their incredible strength and durability. They follow the commands of their creators without question and are often used as guardians or laborers. Despite their lack of free will, some golems have been known to develop a rudimentary form of consciousness over time.",
       "related": "Hobgoblins",
       "related_id": "18"
       },
@@ -123,6 +151,15 @@
          "related": "Null"
       },
       {
+         "id": 21,
+         "name": "Leviathan",
+         "image": "images/Creatures/Leviathan_.png",
+         "type": "Beast Creature",
+         "description": "The Leviathan is a massive sea creature, often depicted as a giant serpent or dragon. It is known for its immense size and powerful tail, which can destroy ships and other large vessels.",
+         "description_2": "The Leviathan is a creature of legend, often associated with the sea and its power. It is said that the Leviathan can control the tides and summon storms. It is not sure if the Leviathan is the last of its kind, but it is typically understood that the Leviathan is a powerful force of nature that should be respected and avoided.",
+         "related": "Null"
+      },
+      {
       "id": 22,
       "name": "Mermaid",
       "image": "images/Creatures/Mermaid.png",
@@ -132,12 +169,48 @@
       "related": "Null"
       },
       {
+      "id": 22,
+      "name": "Mummy",
+      "image": "images/Creatures/Mummy.png",
+      "type": "Humanoid Creature",
+      "description": "Mummies are the dead that have been preserved through various means, often involving magical or alchemical processes. They are known for their ability to retain some level of consciousness and movement even after death. Mummies can vary in appearance, but many are depicted with bandages and a mummified appearance.",
+      "description_2": "Mummies are often associated with ancient burial practices and are believed to possess curses or magical protections. They are typically slow-moving but relentless in their pursuit of intruders in their tombs.",
+      "related": "Null"
+      },
+      {
       "id": 24,
       "name": "Phoenix",
       "image": "images/Creatures/Phoenix.png",
       "type": "Beast Creature",
       "description": "The majestic bird of fire. Despite being on a constant state of being on fire, the phoenix does not feel any pain from it. However, if it were to perish, its body would burn and the ashes would form together to form a egg. After a while, the egg would hatch and the phoenix would be reborn.",
       "description_2": "Pheonixes tend to be solitary creatures, rarely seeing another of their kind. It is said that the fire of a phoenix burns on forever and can not be estinguished by any means. However, any burns left by this creature are said to heal up faster than an average burn.",
+      "related": "Null"
+      },
+      {
+      "id": 25,
+      "name": "Plant Biter",
+      "image": "images/Creatures/Plant_Biter.png",
+      "type": "Plant Creature",
+      "description": "Plant biters are a type of plant creature that has the ability to move and attack. They are often found in forests and other areas with dense vegetation. Plant biters are known for their ability to bite and inject poison into their prey, making them a dangerous opponent for adventurers.",
+      "description_2": "Plant biters are typically found in areas with dense vegetation, such as forests and swamps. They are known for their ability to inject poison, which can be deadly if not treated promptly. Plant biters are often solitary creatures, but can sometimes be found in small groups.",
+      "related": "Null"
+      },
+      {
+      "id": 26,
+      "name": "Plant Elemental",
+      "image": "images/Creatures/Plant_Elemental.png",
+      "type": "Plant Creature",
+      "description": "Plant elementals are magical beings that are made entirely of plant matter. They are often found in forests and other areas with dense vegetation. Plant elementals are known for their ability to manipulate plants and nature, making them a powerful ally or enemy depending on the situation.",
+      "description_2": "Plant elementals are typically found in areas with dense vegetation, such as forests and swamps. Plant elementals are often solitary creatures, but can sometimes be found in small groups.",
+      "related": "Null"
+      },
+      {
+      "id": 27,
+      "name": "Skeleton",
+      "image": "images/Creatures/Skeleton.png",
+      "type": "Undead Creature",
+      "description": "Skeletons are reanimated bones of the dead, often brought back to life through dark magic. They are commonly found in crypts, graveyards, and other places associated with death.",
+      "description_2": "These creatures are typically mindless and serve as guardians or minions for necromancers. Despite their lack of flesh, skeletons can be quite resilient and difficult to destroy.",
       "related": "Null"
       },
       {
@@ -156,6 +229,42 @@
       "type": "Beast Creature",
       "description": "These majestic creatures are closely related to horses, one one vital exception between the two of them. That exception is of course the horn that sits on their head. They are also commonly associated with rainbows due to the color of the hair on their mane and tail. Though it is not entirely uncommon to see one with pure white hair. These creature love to stand in spots of the forest where the sun peers through at just the right angle to increase their beauty. Along with the natural light, this creature's eyes are said to always be sparkling, but accounts of it are extremely rare.",
       "description_2": "The horn that makes this creature unique is not just for looks. It also gifts the otherwise ordianary horse with magic. Touching the the horn of a unicorn or drinking from water that has touched the horn is said the cleanse the person of any illness. Beyond that, the horn just looks cool and by some accounts is said to make rainbows.",
+      "related": "Null"
+      },
+      {
+      "id": 32,
+      "name": "Vampire",
+      "image":"images/Creatures/Vampire.png",
+      "type": "Humanoid Creature",
+      "description": "Vampires are undead creatures that sustain themselves by feeding on the blood of the living. They are often depicted as having fangs, pale skin, and an aversion to sunlight.",
+      "description_2": "These creatures possess supernatural abilities such as enhanced strength, speed, and the power to mesmerize their victims. Vampires are typically vulnerable to sunlight, garlic, and wooden stakes through the heart.",
+      "related": "Null"
+      },
+      {
+      "id": 33,
+      "name": "Water Elemental",
+      "image": "images/Creatures/Water_Elemental.png",
+      "type": "Blob Creature",
+      "description": "Water elementals are formed by water and living water currents. They are mostly created by extremely powerful wizards but can occasionally be found out in terrains with high water levels. Of course, being made of water only makes them impervious to most physical attacks. They can be dispersed by strong enough currents or contained in certain magical containers.",
+      "description_2": "Water elementals are much like their other elemental counterparts. They are not necessarily malicious creatures, but due to their innate danger they should be treated with caution by any adventurers who happen to come across their path.",
+      "related": "Null"
+      },
+      {
+      "id": 34,
+      "name": "Witch",
+      "image": "images/Creatures/Witch.png",
+      "type": "Humanoid Creature",
+      "description": "Witches are practitioners of magic, often depicted as women with knowledge of spells, potions, and rituals. They can be benevolent or malevolent, depending on the lore.",
+      "description_2": "Witches are known for their ability to cast spells, brew potions, and sometimes fly on broomsticks. They often have familiars, such as cats or owls, and are associated with various magical traditions.",
+      "related": "Null"
+      },
+      {
+      "id": 35,
+      "name": "Yeti",
+      "image": "images/Creatures/Yeti.png",
+      "type": "Humanoid Creature",
+      "description": "Yetis are large, ape-like creatures said to inhabit the Himalayan mountains. They are often described as covered in white fur and are known for their elusive nature.",
+      "description_2": "Legends portray yetis as mysterious and sometimes dangerous beings. They are adapted to cold environments and are a popular subject in folklore and cryptozoology.",
       "related": "Null"
       },
       {
