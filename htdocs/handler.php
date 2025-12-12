@@ -62,15 +62,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<br>";
     echo "These are your responses: ";
     echo "<br>";
-    echo $thoughts
+    echo $thoughts;
     echo "<br>";
-    echo $future_biomes
+    echo $future_biomes;
     echo "<br>";
-    echo $future_creatures
+    echo $future_creatures;
 
-    header("location: ../forms.html");
+    header("location: ../index.html");
+    exit();
 } else {
-    header("location: ../forms.html");
+    header("location: ../index.html");
+    exit();
 }
 
 ?>
