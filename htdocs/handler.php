@@ -68,6 +68,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "<br>";
     echo $future_creatures
 
+    header("location: ../forms.html");
+} else {
+    header("location: ../forms.html");
 }
 
 ?>
